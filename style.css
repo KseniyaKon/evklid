@@ -1,3 +1,104 @@
-h1 {
- font-size: 16px;
+@font-face {
+ font-family: 'montserrat';
+ src: url('../evklid/font/montserrat-bold-webfont.woff2') format('woff2'),
+      url('..//evklid/font/montserrat-bold-webfont.woff') format('woff');
+ font-display: swap;
+ font-weight: 600;
+ font-style: normal;
 }
+
+@font-face {
+ font-family: 'montserrat';
+ src: url('..//evklid/font/montserrat-extrabold-webfont.woff2') format('woff2'),
+      url('..//evklid/font/montserrat-extrabold-webfont.woff') format('woff');
+ font-weight: 800;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'montserrat';
+ src: url('..//evklid/font/montserrat-regular-webfont.woff2') format('woff2'),
+      url('..//evklid/font/montserrat-regular-webfont.woff') format('woff');
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'montserrat';
+ src: url('..//evklid/font/montserrat-semibold-webfont.woff2') format('woff2'),
+      url('..//evklid/font/montserrat-semibold-webfont.woff') format('woff');
+ font-weight: 600;
+ font-style: normal;
+ font-display: swap;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+html {
+ font-family: 'montserrat';
+}
+
+body {
+ margin: 0px;
+}
+
+a {
+ text-decoration: none;
+}
+
+ul{
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+
+main {
+ width: 1770px;
+ padding-left: 75px;
+ padding-right: 75px;
+}
+
+.container-header {
+ display: flex;
+ flex-direction: row;
+ width: 1920px;
+ padding-left: 75px;
+ padding-right: 78px;
+ padding-top: 14px;
+ padding-bottom: 14px;
+ box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container_header-logo {
+ display: inline-block;
+ width: 224px;
+ height: 72px;
+ margin-right: 729px;
+}
+
+.container_header_navbar {
+ display: flex;
+ flex-direction: row;
+ padding-top: 25px;
+ padding-bottom: 25px;
+}
+
+.container_header_nav_list {
+ display: flex;
+ flex-direction: row;
+}
+
+.container_header_nav_item {
+ font-size: 18px;
+ line-height: 22px;
+ color: #333333;
+ margin-right: 85px;
+}
+
+/* .container {
+ width: 1770px;
+} */
